@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#container{
+    background-color: rgb(46, 46, 46);
+    display: block;
+    margin: auto;
+    padding: 80px;
+    width: 600px;
+            
+}
+
+h2{
+    text-align: center;;
+    color: gray
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li{
+    background-color: whitesmoke;
+    transition: 0.2s ease;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+li:hover{
+    transform: scale(1.02);
+}
+li span {
+    flex: 1;
+    margin-right: 10px;
+}
+li button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.input-area{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#btn{
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;        
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #45a049;
+}
+      
+.concluida{
+    text-decoration: line-through;
+    color: gray;
+}       
+
+#btn-limpar{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;        
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#entradadedados{
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
